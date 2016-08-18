@@ -59,7 +59,6 @@ class PhotoListViewController: UICollectionViewController {
         
         delegate?.collectionViewSelectedItem(didSelectItem: photos[indexPath.row])
     }
-    
 }
 
 extension PhotoListViewController:UICollectionViewDelegateFlowLayout {
